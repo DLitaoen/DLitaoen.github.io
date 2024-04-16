@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation Page</title>
+</head>
+<body>
+    <main id="main-doc">
+        <nav id="navbar">
+            <header>Finals Information Documentation</header>
+            <ul>
+                <li><a href="#introduction" class="nav-link">Introduction</a></li>
+                <li><a href="#intro_html" class="nav-link">Introduction to HTML</a></li>
+                <li><a href="#basic_commands" class="nav-link">Basic Commands of HTML</a></li>
+                <li><a href="#intro_css" class="nav-link">Introduction to CSS</a></li>
+                <li><a href="#nature_css" class="nav-link">Nature of CSS</a></li>
+                <li><a href="#intro_github" class="nav-link">Introduction to GitHub</a></li>
+                <li><a href="#benefits_github" class="nav-link">Benefits of GitHub</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <section class="main-section" id="introduction">
+                <header>Introduction</header>
+                <p>Web application development stands at the forefront of modern technological innovation, shaping the digital landscape in profound ways. As finishing this course, delving into the intricacies of this field, I find myself reflecting on the journey thus far, contemplating the evolution, challenges, and future prospects of web application development.
+                </p>
+
+                <p>The evolution of web application development traces a narrative of relentless innovation and adaptation. From the rudimentary HTML pages of early internet to the sophisticated, immersive application of today, . The trajectory has been propelled by a relentless quest for improvement, driven by advancements in technology, shifts in user experience, and the dynamic landscape of the digital economy.
+                </p>
+
+                <p>Yet, beneath the surface of technological progress lies a rich tapestry of human experience and endeavor. Web application development is not merely about lines of code or algorithms; it is a manifestation of human creativity, collaboration, and ingenuity. It is a discipline that bridges the gap between art and science, where aesthetic design meets functional utility, and where user experience takes precedence over mere functionality
+                </p>
+            </section>
+            <section class="main-section" id="intro_html">
+                <header>Introduction to HTML</header>
+                <p>In the expansive realm of modern web development, HTML stands as the cornerstone of the digital landscape, comprehending the essence and intricacies of HTML is paramount. Hypertext Markup Language, or HTML, serves as the fundamental language for structuring and presenting content on the World Wide Web. Its significance lies not only in it foundational role but also in it continuous evolution and adaptation to the dynamic demands of the digital era.</p>
+
+                <p>As we delve into the essence of HTML, it becomes apparent that its significance extends far beyond mere syntax and semantics. HTML embodies the core principles of accessibility, interoperability, and scalability, making it indispensable for web developers, designers, and enthusiast alike. Its simplicity belies in its power, providing a structured framework for which the myriad elements of the web are built and interconnected.</p>
+
+                <ul>
+                    <li>HTML stands for Hyper Text Markup Language</li>
+                    <li>HTML is the standard markup language for creating Web pages</li>
+                    <li>HTML describes the structure of a Web page</li>
+                    <li>HTML consists of a a series of elements</li>
+                </ul>
+            </section>
+            <section class="main-section" id="basic_commands">
+                <header>Basic Commands of HTML</header>
+                <p><i>DISCLAIMER! The character "< >" that are used of coding will be changed to "[ ]".</i></p>
+                <p>Sample HTML code</p>
+                <code>
+                    [!DOCTYPE html]
+                    [html]
+                        [head]
+                            [title] "PAGE TITLE" [/title]
+                        [/head]
+
+                        [body]
+                            [h1] "HELLO WORLD!" [/h1]
+                            [p] "This is my first webpage!" [/p]
+                        [/body]
+                    [/html]
+                </code>
+                <p>What does each command mean:</p>
+                <ul>
+                    <li>The "!DOCTYPE html" declaration defins that this document is an HTML5 document.</li>
+                    <li>The "html" element is the root element of an HTML page.</li>
+                    <li>The "head" element contains meta information about the HTML page.</li>
+                    <li>The "title" element specifies a title for the HTML page, which is shown in the browser's title bar/page tab.</li>
+                    <li>The "body" element defines the document's body, and is a container for all the visible contents suc as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+                </ul>
+            </section>
+            <section class="main-section" id="intro_css">
+                <header>Introduction to CSS</header>
+                <p>CSS, short for Cascading Style Sheets, is a powerful language used to style the presentation of HTML documents. While HTML provides the structure and content of a web page, CSS allows you to control how that content is displayed on the screen. With CSS, you can define styles for various elements of your HTML document, such as fonts, colors, spacing, layour, and more. By separating the content from its presentation, CSS promotes cleaner code, easier maintenance, and greater flexibility in design.</p>
+                <p>Types of Cascading Style Sheets</p>
+                <ul>
+                    <li>Inline CSS is applied directly to HTML elements using the "style" attribute.</li>
+                    <li>Internal CSS is placed within the "style" element in the "head" section of an HTML document.</li>
+                    <li>External CSS is stored in separate CSS files and linked to HTML documents using the "link" element.</li>
+                </ul>
+                <code>quam adipiscing vitae proin sagittis</code>
+            </section>
+            <section class="main-section" id="nature_css">
+                <header>Nature of CSS</header>
+                <p><i>Sample HTML code: DISCLAIMER! The character "< >" that are used of coding will be changed to "[ ]".</i></p>
+                <p>Inline CSS</p>
+                <code>
+                    [!DOCTYPE html]
+[html lang="en"]
+[head]
+[meta charset="UTF-8"]
+[meta name="viewport" content="width=device-width, initial-scale=1.0"]
+[title] Inline CSS [/title]
+[/head]
+
+[body]
+[h1] Welcome to CSS! [/h1]
+/* Inline CSS */
+[p style="color: blue; font-size: 16px;"]This is a basic introduction to CSS in HTML. With CSS,
+you can style your web pages to make them visually appealing and user-friendly. [/p]
+[/body]
+
+[/html]
+                </code>
+                <p>Internal CSS</p>
+                <code>
+                    [!DOCTYPE html]
+[html lang="en"][!DOCTYPE html]
+[html lang="en"]
+[head]
+[meta charset="UTF-8"]
+[meta name="viewport" content="width=device-width, initial-scale=1.0"]
+[title] Internal CSS [/title]
+
+/* Internal CSS *
+[style]
+body {
+font-family: Arial, san-serif;
+background-color: green;
+color: black;
+}
+
+h1 {
+color: #007bff;
+}
+
+p {
+line-height:1.6;
+}
+[/style]/
+[/head]
+
+[body]
+[h1] Welcome to CSS! [/h1]
+[p]This is a basic introduction to CSS in HTML. With CSS,
+you can style your web pages to make them visually appealing and user-friendly. [/p]
+[/body]
+
+[/html]
+                </code>
+                <p>External CSS</p>
+                <code>
+                    [!DOCTYPE html]
+[html lang="en"]
+[head]
+[meta charset="UTF-8"]
+[meta name="viewport" content="width=device-width, initial-scale=1.0"]
+[title] External CSS [/title]
+/*External CSS*/
+[link rel="stylesheet" type="text/css" href="styles.css"]
+[/head]
+
+[body]
+[h1] Welcome to CSS! [/h1]
+[p]This is a basic introduction to CSS in HTML. With CSS,
+you can style your web pages to make them visually appealing and user-friendly. [/p]
+[/body]
+
+[/html]
+                </code>
+            </section>
+            <section class="main-section" id="intro_github">
+                <header>Introduction to GitHub</header>
+                <p>Github is a powerful platform that revolutionizes the way develops collaborate on projects, manage codebases, and streamline the software development lifecycle. Whether you're a seasoned developer or just starting out, Github offers a suite of tools and features to enhance productivity, foster collaboration, and ensure the success of your projects.</p>
+                <p>At its core, GitHub is Git repository hosting service, which means it provides a centralized location for storin and managing your Git repositories. Git, created by Linus Torvals, is a distributed version control system that allows developers to track changes to their code, collaborate with others, and maintain a historyof their project's development.</p>
+                <p>GitHub takes Git to the next level by adding a social and collaborative layer on top of the version of control functionality. Let's delve into some key features that make GitHub indispensable for developers.</p>
+            </section>
+            <section class="main-section" id="benefits_github">
+                <header>Benefits of GitHub</header>
+                <p>GitHub provides a comprehensive set of tools and services to help you with your development projects. By joining GitHub, you become part of a global developer community that is shaping the fututre of software development and driving innovation accress industries.</p>
+                <ul>
+                    <li>Each GitHub repository serves as a central hub for your projects, containing all of the codebase's files, folders, and version history.</li>
+                    <li>It offers a variety of collaboration tools to help developers work together and communicate more effectively.</li>
+                    <li>An open-source enthusiasts and organization that actively contribute to projects, share knowledge, and support one another's efforts.</li>
+                    <li>It helps to streamline your development workflow, improve code quality, and ensure that your applicatons are always up-to-date and functioning properly.</li>
+                    <li>GitHub prioritizes code security and offers powerful tools for managing access permissions, enforcing security policies, and identifying vulnerabilities in your dependencies.</li>
+                </ul>
+            </section>
+        </div>
+        <a href="#" class="top">Back to Top &#8593;</a>
+    </main>
+</body>
+</html>
